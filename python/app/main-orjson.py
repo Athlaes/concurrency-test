@@ -1,9 +1,7 @@
-import json
 import logging
 import aiofiles
 import uvicorn
 import orjson
-
 from fastapi import FastAPI
 from fastapi.logger import logger
 
